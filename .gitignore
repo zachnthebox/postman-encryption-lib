@@ -1,0 +1,10 @@
+# ide
+.vscode
+
+# nodejs
+node_modules
+
+# jest
+coverage
+
+push.sh

@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npx --no-install commitlint --edit "$1" \
+|| (echo "Commit messages should follow Angular Commit Message Conventions. \n If you're unfamiliar with this , run 'npm run commit' instead of 'git commit' \n See CONTRIBUTING.md for details." \
+&& exit 1)

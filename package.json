@@ -1,0 +1,48 @@
+{
+  "name": "mastercard-postman-encryption-lib",
+  "version": "1.0.0",
+  "description": "Library for encrypting mastercard api requests in postman",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mastercard/postman-encryption-lib.git"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "minify": "mkdirp dist && browserify src/index.js | uglifyjs -o dist/mastercard-postman-encryption-lib.min.js",
+    "lint": "eslint '**/*.js' || (echo \"Run 'npm run lint:fix' to fix most errors\" && exit 1)",
+    "lint:fix": "eslint --fix '**/*.js'",
+    "prepare": "husky install",
+    "commit": "cz"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "js-sha256": "^0.10.1",
+    "mastercard-client-encryption": "^1.9.0",
+    "node-jose": "^2.2.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^18.2.0",
+    "@commitlint/config-conventional": "^18.1.0",
+    "browserify": "^17.0.0",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.50.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-jest": "^27.4.2",
+    "eslint-plugin-prettier": "^5.0.0",
+    "husky": "^8.0.3",
+    "jest": "^29.7.0",
+    "mkdirp": "^3.0.1",
+    "prettier": "^3.0.3",
+    "uglify-js": "^3.17.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
