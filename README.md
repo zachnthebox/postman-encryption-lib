@@ -4,7 +4,7 @@ Library for encrypting mastercard api requests in postman
 #### Usage
 In postman :
 
- - Copy the contents of the [minified bundle](#build-the-minified-bundle-file)
+ - Copy the contents of the [minified bundle](#build-the-minified-bundle-file) // update this link to the releases page
    as an environment variable `encryptionScript` .
 - Set the required environment variables for encryption
 - Set this as a pre-request script:
@@ -40,10 +40,10 @@ The output will be created in the `dist/` directory.
 
 #### Release Process  
 
-Release is handled by the [semantic-release tool](https://github.com/semantic-release/semantic-release), which will :
+On PR merge, release is handled automatically by the [semantic-release tool](https://github.com/semantic-release/semantic-release), which will :
   - Update the version in `package.json`
   - Update the [CHANGELOG](./CHANGELOG.md) using the commit messages
-  - Create a github release to publish the minified file.
+  - Create a github release with the minified file.
 
 
 #### Contributing

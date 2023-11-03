@@ -29,6 +29,8 @@ jobs:
         run: npm audit signatures
       - name: Run Tests
         run: npm run test
+      - name: Lint
+        run: npm run lint
       - name: Minify
         run: npm run minify
       - name: Release

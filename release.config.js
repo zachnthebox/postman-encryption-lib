@@ -4,7 +4,7 @@ module.exports = {
   branches: ['main'],
   plugins: [
     '@semantic-release/commit-analyzer',
-    '@semantic-release/release-notes-generator', // add release notes to CHANGELOG.md
+    '@semantic-release/release-notes-generator',
     [
       // publish a release on github
       '@semantic-release/github',
