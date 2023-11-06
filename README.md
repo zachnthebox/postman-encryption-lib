@@ -59,4 +59,4 @@ For more details, see [CONTRIBUTING](./CONTRIBUTING.md)
 On PR merge, release is handled automatically by the [semantic-release tool](https://github.com/semantic-release/semantic-release), which will :
   - Update the version in `package.json`
   - Update the [CHANGELOG](./CHANGELOG.md) using the commit messages
-  - Create a github release with the minified file.
+  - Create a [github release](https://github.com/Mastercard/postman-encryption-lib/releases) with the minified file.
