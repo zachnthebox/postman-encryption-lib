@@ -38,15 +38,21 @@ I postman :
 
 The output will be created in the `dist/` directory.  
 
-##### Commiting  
-This repository follows [Angular Commit Message Conventions](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines).  
-If you're unfamiliar with this format, run:   
-`npm run commit` instead of `git commit`  
- and you'll get an interactive shell which will help you. Example:  
+
+## Contributing
+This repository follows [Angular Commit Message Conventions](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines) and commit messages should follow this format.  
+
+If you're unfamiliar with this, instead of `git commit`, run:   
+
+    npm run commit  
+
+ and you'll get an interactive shell which will format your commit message. Example:  
 
     git add file1 file2  
     npm run commit
 
+
+For more details, see [CONTRIBUTING](./CONTRIBUTING.md)
 
 ## Release Process  
 
@@ -54,7 +60,3 @@ On PR merge, release is handled automatically by the [semantic-release tool](htt
   - Update the version in `package.json`
   - Update the [CHANGELOG](./CHANGELOG.md) using the commit messages
   - Create a github release with the minified file.
-
-
-#### Contributing
-See [CONTRIBUTING](./CONTRIBUTING.md)
