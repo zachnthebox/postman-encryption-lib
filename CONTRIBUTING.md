@@ -3,7 +3,7 @@
 When contributing to this repository, please first discuss the change you wish  
 to make via an issue, be it a bug report, or feature request or anything else.
 
-**Always check if the bug/feature request has been already raised before creating a new one.**
+**Always check if the issue has been raised already before creating a new one.**
 
 ## Commit Message Conventions  
 This repository follows [Angular Commit Message Conventions](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines).  
