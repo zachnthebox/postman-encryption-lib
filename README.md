@@ -1,7 +1,7 @@
 # Mastercard Postman Encryption Lib
 Library for encrypting mastercard api requests in postman
 
-### Usage
+## Usage
 I postman :
 
  - Copy the contents of the [minified bundle](#build-the-minified-bundle-file) // update this link to the releases page
@@ -40,6 +40,7 @@ The output will be created in the `dist/` directory.
 
 
 ## Contributing
+
 This repository follows [Angular Commit Message Conventions](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines) and commit messages should follow this format.  
 
 If you're unfamiliar with this, instead of `git commit`, run:   
@@ -60,3 +61,4 @@ On PR merge, release is handled automatically by the [semantic-release tool](htt
   - Update the version in `package.json`
   - Update the [CHANGELOG](./CHANGELOG.md) using the commit messages
   - Create a [github release](https://github.com/Mastercard/postman-encryption-lib/releases) with the minified file.
+
