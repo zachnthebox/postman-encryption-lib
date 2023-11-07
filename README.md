@@ -2,10 +2,9 @@
 Library for encrypting mastercard api requests in postman
 
 ## Usage
-I postman :
+In postman :
 
- - Copy the contents of the [minified bundle](#build-the-minified-bundle-file) // update this link to the releases page
-   as an environment variable `encryptionScript` .
+ - Copy the contents of the [minified bundle](#build-the-minified-bundle-file) as an environment variable `encryptionScript` .
 - Set the required environment variables for encryption
 - Set this as a pre-request script:
 ```
