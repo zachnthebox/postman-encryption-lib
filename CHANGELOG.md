@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/Mastercard/postman-encryption-lib/compare/v1.0.0...v1.0.1) (2023-11-07)
+
+
+### Bug Fixes
+
+* **dummy:** test PR ([ae0b3ce](https://github.com/Mastercard/postman-encryption-lib/commit/ae0b3cec5b8268566bb523bebd722e072beae5b2))
+
 # 1.0.0 (2023-11-06)
 
 
