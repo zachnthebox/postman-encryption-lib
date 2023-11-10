@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/Mastercard/postman-encryption-lib/compare/v1.0.1...v1.0.2) (2023-11-10)
+
+
+### Bug Fixes
+
+* **release:** add package-lock file to the list of files in the release process ([5edce93](https://github.com/Mastercard/postman-encryption-lib/commit/5edce93169eae2ca87772b0a14f7a2e63fe6072c))
+
 ## [1.0.1](https://github.com/Mastercard/postman-encryption-lib/compare/v1.0.0...v1.0.1) (2023-11-07)
 
 
