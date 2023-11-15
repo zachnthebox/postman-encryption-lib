@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/Mastercard/postman-encryption-lib/compare/v1.0.2...v1.0.3) (2023-11-15)
+
+
+### Bug Fixes
+
+* **jwe:** honour "pathToEncryptedData" property in jwe encryption ([3b9db82](https://github.com/Mastercard/postman-encryption-lib/commit/3b9db82cd656638bc85dccfdb6c99aad956f5477))
+
 ## [1.0.2](https://github.com/Mastercard/postman-encryption-lib/compare/v1.0.1...v1.0.2) (2023-11-10)
 
 
