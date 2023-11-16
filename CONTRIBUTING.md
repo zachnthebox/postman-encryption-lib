@@ -18,7 +18,7 @@ If you're unfamiliar with this format, run:
 
 
 ## Pull Request Process
-1. Pull requests should be made against the main branch
+1. Pull requests should be made against the `main` branch
 2. Ensure there are no linting errors and that changes have unit tests.
 4. You may merge the pull request if all checks pass and you have the approval from us.
 

@@ -40,13 +40,13 @@ The output will be created in the `dist/` directory.
 
 ## Contributing
 
-This repository follows [Angular Commit Message Conventions](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines) and commit messages should follow this format.  
+Commit messages should follow [Angular Commit Message Conventions](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines).  
 
 If you're unfamiliar with this, instead of `git commit`, run:   
 
     npm run commit  
 
- and you'll get an interactive shell which will format your commit message. Example:  
+ and you'll get an interactive shell which will help you with the commit message. For example:  
 
     git add file1 file2  
     npm run commit
