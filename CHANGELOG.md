@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/Mastercard/postman-encryption-lib/compare/v1.0.3...v1.0.4) (2024-03-19)
+
+
+### Bug Fixes
+
+* **encryptedvaluefieldname:** s4149728 - add support for encrypted value field name ([a3207aa](https://github.com/Mastercard/postman-encryption-lib/commit/a3207aad2c9133794d157bfd6247c1c47f150f96))
+
 ## [1.0.3](https://github.com/Mastercard/postman-encryption-lib/compare/v1.0.2...v1.0.3) (2023-11-15)
 
 

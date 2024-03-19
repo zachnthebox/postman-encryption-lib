@@ -1,6 +1,6 @@
 {
   "name": "mastercard-postman-encryption-lib",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Library for encrypting mastercard api requests in postman",
   "repository": {
     "type": "git",
