@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/Mastercard/postman-encryption-lib/compare/v1.0.4...v1.0.5) (2024-03-28)
+
+
+### Bug Fixes
+
+* fix letter casing issue when checking the request method ([6b3f7e3](https://github.com/Mastercard/postman-encryption-lib/commit/6b3f7e3e47f315c8f22aeba38a6921d6b8abaf7f))
+
 ## [1.0.4](https://github.com/Mastercard/postman-encryption-lib/compare/v1.0.3...v1.0.4) (2024-03-19)
 
 
