@@ -46,7 +46,7 @@ encryptRequest = async function (encryptionType, pm) {
     throw new Error("'pm' object is invalid");
   }
 
-  if (['get', 'head', 'delete', 'options'].includes(pm.request.method)) {
+  if (['get', 'head', 'delete', 'options'].includes(pm.request.method.toLowerCase())) {
     return;
   }
 

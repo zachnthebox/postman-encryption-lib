@@ -40,7 +40,7 @@ describe(`Tests for ${encryptRequest.name}()`, () => {
     const mockUpdateFn = jest.fn();
     pm.request.body.update = mockUpdateFn;
 
-    for (const method of ['get', 'head', 'options', 'delete']) {
+    for (const method of ['GET', 'head', 'OPTIONS', 'delete']) {
       pm.request = { method };
       await encryptRequest('mce', pm);
       expect(mastercardEncryption).not.toHaveBeenCalled();
