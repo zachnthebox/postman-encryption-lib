@@ -1,5 +1,5 @@
 # Mastercard Postman Encryption Lib
-Library for encrypting mastercard api requests in postman
+Library for encrypting mastercard api requests in postman testing
 
 ## Usage
 In postman :
